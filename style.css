@@ -1,0 +1,61 @@
+.carousel-indicators [data-bs-target]{
+    background-color: black;
+}
+.carousel-indicators .active{
+    background-color: red;
+}
+.carousel-indicators{
+    bottom:-30px;
+}
+/*whenevr we dont get correct values write -60px values like means it comes opposite-*/
+    .navbar{
+        background-color: orange!important;
+    }
+    .btn{
+        color:orange!important;
+    }
+    .icon{
+        font-size: xx-large;
+        color:red;
+        
+    }
+    #about h1::after{
+      content:"";
+      display:block;
+      height:6px;
+      width:100px;
+      margin:auto;
+      background-color: black;
+      border-radius: 10px;
+    }
+    #testimonials.content i{
+        font-size: 20px;
+    }
+#news .ss{
+    position: relative;
+}
+#news .blog1{
+    position: absolute;
+    /*top:90%;
+    left:5px;
+    bottom: 0%;*/
+    /*top:90%;
+    right:5px;
+        */
+    /*top:0%;
+    left:5px;*/
+    /*top:80%;
+    right:5px;*/
+   /* top:85%;
+    left:10px;*/
+   /* top:5px;
+    left:3px;*/
+    top:5px;
+    right:3px;
+}
+#news .blog2{
+    position: absolute;
+    top:10px;
+    left:10px;
+   
+}
